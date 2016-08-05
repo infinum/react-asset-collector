@@ -5,7 +5,7 @@ Collect assets from react components so you can do HTTP2 push
 [![Dependency Status](https://david-dm.org/infinum/react-asset-collector.svg)](https://david-dm.org/infinum/react-asset-collector)
 [![devDependency Status](https://david-dm.org/infinum/react-asset-collector/dev-status.svg)](https://david-dm.org/infinum/react-asset-collector#info=devDependencies)
 
-## Instalation
+## Installation
 
     npm install react-asset-collector
 
