@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DarkoKukovec/react-asset-collector.git"
+    "url": "git+https://github.com/infinum/react-asset-collector.git"
   },
   "keywords": [
     "react",
@@ -18,11 +18,17 @@
     "push"
   ],
   "author": "Infinum <support@infinum.co>",
+  "contributors": [
+    {
+      "name": "Darko Kukovec",
+      "email": "darko@infinum.co"
+    }
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DarkoKukovec/react-asset-collector/issues"
+    "url": "https://github.com/infinum/react-asset-collector/issues"
   },
-  "homepage": "https://github.com/DarkoKukovec/react-asset-collector#readme",
+  "homepage": "https://github.com/infinum/react-asset-collector#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "husky": "^0.11.6",
