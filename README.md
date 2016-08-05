@@ -1,9 +1,9 @@
 # react-asset-collector
 Collect assets from react components so you can do HTTP2 push
 
-[![Build Status](https://travis-ci.org/DarkoKukovec/react-asset-collector.svg?branch=master)](https://travis-ci.org/DarkoKukovec/react-asset-collector)
-[![Dependency Status](https://david-dm.org/DarkoKukovec/react-asset-collector.svg)](https://david-dm.org/DarkoKukovec/react-asset-collector)
-[![devDependency Status](https://david-dm.org/DarkoKukovec/react-asset-collector/dev-status.svg)](https://david-dm.org/DarkoKukovec/react-asset-collector#info=devDependencies)
+[![Build Status](https://travis-ci.org/infinum/react-asset-collector.svg?branch=master)](https://travis-ci.org/infinum/react-asset-collector)
+[![Dependency Status](https://david-dm.org/infinum/react-asset-collector.svg)](https://david-dm.org/infinum/react-asset-collector)
+[![devDependency Status](https://david-dm.org/infinum/react-asset-collector/dev-status.svg)](https://david-dm.org/infinum/react-asset-collector#info=devDependencies)
 
 ## withAssets(css = [], files = [])
 * Receives two arguments: array of CSS modules and array of file paths
