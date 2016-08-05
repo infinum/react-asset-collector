@@ -5,6 +5,10 @@ Collect assets from react components so you can do HTTP2 push
 [![Dependency Status](https://david-dm.org/infinum/react-asset-collector.svg)](https://david-dm.org/infinum/react-asset-collector)
 [![devDependency Status](https://david-dm.org/infinum/react-asset-collector/dev-status.svg)](https://david-dm.org/infinum/react-asset-collector#info=devDependencies)
 
+## Instalation
+
+    npm install react-asset-collector
+
 ## withAssets(css = [], files = [])
 * Receives two arguments: array of CSS modules and array of file paths
 * Returns a function which receives one argument: The component we want to decorate
