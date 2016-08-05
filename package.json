@@ -1,0 +1,33 @@
+{
+  "name": "react-asset-collector",
+  "version": "1.0.0",
+  "description": "Collect assets from react components so you can do HTTP2 push",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkoKukovec/react-asset-collector.git"
+  },
+  "keywords": [
+    "react",
+    "assets",
+    "http2",
+    "push"
+  ],
+  "author": "Infinum <support@infinum.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DarkoKukovec/react-asset-collector/issues"
+  },
+  "homepage": "https://github.com/DarkoKukovec/react-asset-collector#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.1",
+    "react": "^15.3.0"
+  },
+  "dependencies": {
+    "lodash": "^4.14.1"
+  }
+}
