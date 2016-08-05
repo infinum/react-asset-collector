@@ -18,6 +18,7 @@ Collect assets from react components so you can do HTTP2 push
 With decorators (e.g. [transform-decorators-legacy](https://github.com/loganfsmyth/babel-plugin-transform-decorators-legacy) + webpack)
 
     import {Component} from 'react';
+    import {withAssets} from 'react-asset-collector';
 
     import styles from 'styles.css';
     import photo from 'photo.jpg';
@@ -29,6 +30,7 @@ With decorators (e.g. [transform-decorators-legacy](https://github.com/loganfsmy
 Without decorators
 
     const React = require('react');
+    const {withAssets} = require('react-asset-collector');
 
     class MyComponent extends Component {}
     module.exports = withAssets([], ['photo.jpg', 'icon.png'])(MyComponent);
@@ -40,6 +42,8 @@ Without decorators
 ### Examples
 
 With react-router and SSR
+
+    const {getAssets} = require('react-asset-collector');
 
     match({location: req.url, routes: routes}, function(error, redirect, renderProps) {
       const assets = getAssets(renderProps.components);
