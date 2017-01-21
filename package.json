@@ -31,7 +31,7 @@
   "homepage": "https://github.com/infinum/react-asset-collector#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "husky": "^0.11.6",
+    "husky": "^0.13.0",
     "mocha": "^3.0.1",
     "react": "^15.3.0"
   },
